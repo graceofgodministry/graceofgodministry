@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+header,section{
+    overflow-x: hidden;
+}
+/* .navbar-nav .active{
+    
+
+    color: white;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 30px;
+
+
+} */
+
+:root{
+    --Roboto-font:'Roboto', sans-serif;
+    --Rubik-font: 'Rubik', sans-serif;
+    --light-black: #2e2c2caf;
+    --bggradient:linear-gradient(to bottom, #a1c4fd , #c2e9fb);
+    --light-gray: rgba(232, 232, 232, 1);
+    --dancing-font: 'Dancing Script', cursive;
+    --bg: #1a1e24;
+    --color: rgb(255, 255, 255);
+    --font: 'Montserrat', 'Roboto', Helvetica, Arial, sans-serif;
+    --oxygen-font: 'Oxygen', sans-serif;
+}
+
+
+
+.navbar-toggler {
+    border:0px;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+header a{
+    font-family: var(--Roboto-font);
+    font-size: 0.9em;
+    color: black;
+}
+
+header .headerFixed {
+    background: var(--bggradient) !important;
+}
+
+header .nav-item:last-child{
+    padding-right: 10.5rem;
+}
+
+header .nav-item{
+    padding: 1em !important;
+    /* padding: 15px !important; */
+}
+header .nav-brand{
+    padding-left: 8rem ;
+}
+
+header .row .col-md-5{
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7{
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: var(--Rubik-font);
+    color: black;
+}
+header .row .col-md-5 img{
+    width: 100% !important;
+
+}
+header .container .col-md-7 h6{
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1{
+    font-size: 10vmin;
+    font-weight: 600;
+    font-family: var(--oxygen-font);
+    padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p{
+    padding:  1vmin 5vmin;
+}
+
+header .container .col-md-7 button{
+    border-radius: 30px;
+    font-weight: 500;
+    outline: none !important;
+    box-shadow: none !important;
+
+}
+.giveBtn:focus {
+    outline: none !important;
+  }
+
+
+/* SECTION 1 STYLINGS HERE */
+.section1{
+    padding:  20vmin 0;
+}
+.section1 .row .col-md-6 .pray img{
+    width: 80%;
+    border-radius: 0.2em;
+}
+.section1 .row .col-md-6:last-child{
+    position: relative;
+
+}
+.section1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik-font);
+    /* position: relative; */
+}
+
+.section1 .row .col-md-6 .panel h1{
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+
+.section1 .row .col-md-6 .panel p{ 
+    font-size: 0.9em;
+    color: rgba(0,0,0,0.8);
+}
+
+
+/* ==SECTION 2 STYLING HERE === */
+.cover{
+    width: 100%;
+    height: 55vmin;
+    background: url("https://images.unsplash.com/photo-1512131852012-622823c149e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+}
+
+.cover .content{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+
+}
+.cover .content > h1{
+    font-family: var(--Roboto-font);
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+
+.cover .content > p{
+    font-family: var(--Roboto-font);
+    font-size: 3vmin;
+    color: #e5e6e6;
+}
+
+.cover .content > span{
+    font-family: var(--Roboto-font);
+    font-size: 2vmin;
+    color: #e5e6e6;
+}
+
+/* boxes for verses */
+.numbers .rect{
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17em;
+    height: auto;
+    padding-top: 8.5vmin !important;
+    padding: 4vmin;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 50px 0px rgba(0, 34, 255, 0.204);
+}
+
+.numbers{
+    margin-top: -15vmin;
+
+}
+.numbers .rect h4{
+    font-size: 1rem;
+    color: black;
+}
+
+.numbers .rect p{
+    font-size: 2vmin;
+    color: grey;
+}
+
+/* section 3 styling the videos! */
+/* CSS VIDEO STYLING */
+.video{
+    background: -webkit-linear-gradient(rgba(149, 165, 221, 0.626), rgba(141, 245, 247, 0.333));
+    padding: 50px;
+    
+
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  iframe{
+    border: 15px solid white;
+  }
+
+  /* Responsiveness */
+  @media only screen and (max-width: 768px) {
+    iframe{
+        border: 5px solid white;
+      }
+  }
+
+.section3 .container h2{
+    font-family: var(--dancing-font);
+    padding-bottom: 4vmin;
+    font-size: 1;
+}
+
+.section3 .container h1{
+    font-family: var(--Rubik-font);
+    font-size: 4rem;
+}
+
+
+.section3 .container h1 span{
+    font-family: var(--Rubik-font);
+    font-size: 5rem;
+}
+.wrapper {
+    padding: 1.5rem 0;
+    filter: url('#goo');
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    background: var(--color);
+    color: var(--bg);
+    font-weight: bold;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 1.25rem;
+}
+
+.button:before,
+.button:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: var(--color);
+    border-radius: 50%;
+    transition: transform 1s ease;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.button:before {
+    top: -25%;
+    left: 20%;
+}
+
+.button:after {
+    bottom: -25%;
+    right: 20%;
+    
+}
+
+.button:hover:before,
+.button:hover:after {
+    transform: none;
+   
+}
+.wrapper a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* Section 4  STYLING HERE */
+.section4  h2{
+    font-size: 6vmin;
+    padding-top: 6vmin;
+    font-family: var(--oxygen-font);
+    text-align: center;
+
+}
+
+.section4 p{
+    padding-bottom: 10vmin;
+}
+
+.section4 .small{
+    padding: 0;
+}
+
+
+.section4 .card-info{
+    font-size: 14px !important;
+}
+
+/* Footer here */
+
+footer{
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x:hidden;
+    padding: 14vmin 18vmin;
+
+}
+footer input{
+    border: none !important;
+}
+footer input::placeholder{
+    color: white !important;
+
+}
+footer .input-group .input-group-text{
+    background: white;
+    color: black !important;
+    border: none;
+}
+footer .column i{
+    color: white !important;
+}
+footer .column i{
+    padding: 0 0.5em;
+}
+
+.credits{
+    color: rgb(214, 214, 214);
+    background: rgba(0, 0, 0, 0.815);
+    font-size: 14px;
+    padding: 20px;
+}
+
+
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* stickly class here */
+  .sticky{
+      position: fixed !important;
+      top: 0 !important;
+      width: 100% !important;
+      background: #fdfdfddc !important;
+      z-index: 9999 !important;
+      transition: all 1.5s ease !important;
+  }
+
+  #google_translate_element {
+    position: absolute;
+    top: 50pxpx;
+    z-index: 99999;
+    right: 23px;
+  }
+  
+  
+
+
+  /* TEAMS SECTION SOCIAL STYLING HERE */
+  .social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+    transform: scale(1.2);
+}

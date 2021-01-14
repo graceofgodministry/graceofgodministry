@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 header,section{
     overflow-x: hidden;
 }
@@ -427,3 +431,4 @@ footer .column i{
     color: #555;
     transform: scale(1.2);
 }
+

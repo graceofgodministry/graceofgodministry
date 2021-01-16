@@ -15,7 +15,7 @@
     }
     .numbers .rect{
         width: 12rem;
-        height: 10rem;
+        height: 12rem;
 
     }
 
@@ -75,6 +75,7 @@
         text-align: center;
     
     }
+    
 
 }
 @media only screen and (max-width:555px){
@@ -124,6 +125,9 @@
         padding-top: 50vmin !important;
       
       }
+      .numbers .rect{
+        height: 8rem !important;
+    }
 }
 
 @media only screen and (max-width:976px){

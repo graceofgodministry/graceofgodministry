@@ -77,13 +77,14 @@ header .nav-brand{
     padding-left: 8rem ;
 }
 
+
 header .row .col-md-5{
     padding: 4.2vmin 1vmin;
 }
 
 header .row .col-md-7{
-    padding: 22vmin 1vmin;
-    padding-bottom: 35vmin;
+    padding: 18vmin 1vmin;
+    padding-bottom: 36vmin;
     font-family: var(--Rubik-font);
     color: black;
 }
@@ -202,7 +203,7 @@ header .container .col-md-7 button{
     padding: 4vmin;
     margin: 1rem;
     border-radius: .5em;
-    box-shadow: 1px 2px 50px 0px rgba(0, 34, 255, 0.204);
+    box-shadow: 1px 2px 50px 0px rgba(0, 34, 255, 0.109);
 }
 
 .numbers{

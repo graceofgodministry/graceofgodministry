@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Us - Grace of God Ministry</title>
+    <title>About us - Grace of God Ministry</title>
+
+    <!-- favicon   -->
+    <link rel="shortcut icon" type="image/png" href="../../assets/favicon.ico">  
+
     <!-- Bootstrap -->
     <link
       rel="stylesheet"
@@ -100,7 +104,7 @@
       </div>
       
       <h2 class="font-weight-bold">Praise the Lord</h2>
-      <p class="font-italic text-muted  text-center">Meet the three main trustee of Grace of God.</p>
+      <p class="font-italic text-muted  text-center">Meet the <span class="typecool" style="color: blue; font-weight: 600;"></span> of Grace of God Ministry.</p>
       
       <div class="row pb-5 mb-4 justify-content-center">
           <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
@@ -164,7 +168,7 @@
           <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" class="rounded-circle z-depth-1"
             alt="Sample avatar">
         </div>
-        <h5 class="mt-3 mb-1">Anna Williams</h5>
+        <h5 class="mt-3 mb-1">Rashila Babu</h5>
       </div>
       <!-- Grid column -->
   
@@ -175,6 +179,7 @@
             alt="Sample avatar">
         </div>
         <h5 class="mt-3 mb-1">Elon Musk</h5>
+        <p class="text-muted">Credits for Photos</p>
 
       </div>
       <!-- Grid column -->
@@ -202,10 +207,26 @@
 
     </div>
     <!-- Grid row -->
+
+
+    
     
   </section>
   <!-- Team section END -->
 
+
+
+
+  <!-- CREDITS TO AKSHAY -->
+  <section>
+    <div class="container bg-light">
+      <div class="row">
+        <div class="col-md-12 text-center" >
+          <h4><span class="credit"></span></h4>
+        </div>
+      </div>
+    </div>
+  </section>
 
     </main>
 
@@ -262,6 +283,29 @@
 
     <script src="../main.js"></script>
     <script src="../scroll.js"></script>
+
+
+
+      <!-- Typed.js -->
+      <script src="../../js/typed.js"></script>
+      <script>
+        var typed = new Typed('.typecool', {
+        strings: ["President", "Vice President", "Trustee"],
+        typeSpeed: 60,
+        backSpeed: 30,
+        loop: true
+      });
+      </script>
+
+      <script>
+        var typed = new Typed('.credit', {
+        strings: ["Huge thanks to <span style='color:blue'>Akshay Solanki</span>", "For helping us with all the photography issue."],
+        typeSpeed: 60,
+        backSpeed: 30,
+        loop: true
+      });
+      </script>
+
 
   </body>
 </html>

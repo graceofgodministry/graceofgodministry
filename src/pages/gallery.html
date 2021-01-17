@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gallery - Grace of God Ministry</title>
+
+    <!-- favicon   -->
+    <link rel="shortcut icon" type="image/png" href="../../assets/favicon.ico">  
+
+
     <!-- Bootstrap -->
     <link
     rel="stylesheet"
@@ -76,7 +81,7 @@
           <div class="row">
             <div class="col-md-12">
               <h2 class="heading text-center">Our Gallery</h2>
-              <p class="sub-heading text-center">Grace of God involvement images.</p>
+              <p class="sub-heading text-center"><span class="subhead"></span></p>
             </div>
           </div>
         </div>
@@ -370,6 +375,11 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="14"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="15"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="16"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="17"></li>
 
 
         </ol>
@@ -416,6 +426,20 @@
           <div class="carousel-item">
             <img class="d-block w-100" src="../../assets/images/gallery/13.jpg" alt="14 slide">
           </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../../assets/images/churchdev/6.jpg" alt="15 slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../../assets/images/churchdev/9.jpg" alt="16 slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../../assets/images/churchdev/1.jpg" alt="17 slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../../assets/images/churchdev/3.jpg" alt="18 slide">
+          </div>
+
         </div>
   
       </div>
@@ -505,6 +529,17 @@
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
       }
+      </script>
+
+      <!-- Typed.js -->
+      <script src="../../js/typed.js"></script>
+      <script>
+        var typed = new Typed('.subhead', {
+        strings: ["Grace of God Ministry involvement images.", "Grace of God Ministry Church Development in India.", "Grace of God Ministry gallery page."],
+        typeSpeed: 40,
+        backSpeed: 30,
+        loop: true
+      });
       </script>
     
   </body>

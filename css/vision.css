@@ -44,3 +44,28 @@
     padding: 15vmin;
 }
 
+
+/* Responsiveness */
+
+
+@media only screen and (max-width: 600px) {
+  .section2{
+    height: auto;
+    padding: 2vmin !important;
+}
+
+.vision1{
+  height: auto;
+  padding: 2vmin !important;
+}
+
+.vision2{
+  height: auto;
+  padding: 2vmin !important;
+}
+
+.vision3{
+  height: auto;
+  padding: 2vmin !important;
+}
+}
